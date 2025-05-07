@@ -15,13 +15,13 @@ spec:
       paths:
       # FSA toto si vo finale budete musiet pomenit na zaklade Vasej aplikacie
       
-      # - path: /
-      #   pathType: Prefix
-      #   backend:
-      #     service:
-      #       name: fsa-fe
-      #       port:
-      #         number: 80
+      - path: /athletehub
+        pathType: Prefix
+        backend:
+          service:
+            name: fsa-fe
+            port:
+              number: 80
       - path: /users
         pathType: Prefix
         backend:
