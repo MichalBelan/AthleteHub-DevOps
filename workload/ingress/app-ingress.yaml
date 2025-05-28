@@ -15,7 +15,7 @@ spec:
       paths:
       # FSA toto si vo finale budete musiet pomenit na zaklade Vasej aplikacie
       
-      - path: /athletehub
+      - path: /
         pathType: Prefix
         backend:
           service:
